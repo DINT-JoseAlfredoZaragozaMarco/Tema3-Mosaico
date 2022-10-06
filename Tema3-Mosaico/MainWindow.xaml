@@ -1,0 +1,21 @@
+﻿<Window x:Class="Tema3_Mosaico.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema3_Mosaico"
+        mc:Ignorable="d"
+        Icon="./assets/icon.png"
+        Title="Mosaico" Height="500" Width="500" MinHeight="483.657" MinWidth="459.695">
+    <DockPanel>
+        <TextBlock DockPanel.Dock="Left" Width="100" Background="Red"></TextBlock>
+        <TextBlock DockPanel.Dock="Top" Height="100" Background="Red"></TextBlock>
+        <TextBlock DockPanel.Dock="Right" Width="100" Background="#FF19B800"></TextBlock>
+        <TextBlock DockPanel.Dock="Bottom" Height="100" Background="#FF19B800"></TextBlock>
+        <TextBlock DockPanel.Dock="Left" Width="100" Background="#FF150A5D"></TextBlock>
+        <TextBlock DockPanel.Dock="Top" Height="100" Background="#FF150A5D"></TextBlock>
+        <TextBlock DockPanel.Dock="Right" Width="100" Background="Purple"></TextBlock>
+        <TextBlock DockPanel.Dock="Bottom" Height="100" Background="Purple"></TextBlock>
+        <TextBlock Background="Black"></TextBlock>
+    </DockPanel>
+</Window>
